@@ -2,7 +2,8 @@ module.exports = {
   ci: {
     collect: {
       staticDistDir: "src",
-      url: ["http://localhost:4000/"],
+      startServerCommand: "npm start",
+      url: ["http://localhost:4200/"],
       startServerReadyPattern: "Server is running on PORT 4000",
     },
     upload: {
