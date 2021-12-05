@@ -5,8 +5,3 @@ language: node_js
 # Version du langage
 node_js:
   - "12"
-
-# Distribution Linux utilisée
-dist: trusty
-# Les commandes nécessitent-elles d'être superutilisateur ?
-sudo: required
