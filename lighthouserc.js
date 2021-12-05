@@ -6,7 +6,12 @@ module.exports = {
       url: ["http://localhost:4200/"],
       startServerReadyPattern: "Server is running on PORT 4000",
       settings: {
-        onlyCategories: ["accessibility"],
+        onlyCategories: [
+          "performance",
+          "accessibility",
+          "best-practices",
+          "seo",
+        ],
       },
     },
     upload: {
